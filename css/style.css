@@ -109,7 +109,7 @@ body.sub-page header {margin: 195px 0 80px;background: url(../images/bg.jpg) fix
 
 /* Carousel Styles */
 .carousel-inner{margin-top: 50px; margin-bottom: 0px;}
-.carousel-inner img {width: 1000px;max-height: 600px;}
+.carousel-inner img {width: 1000px;}
 .carousel-inner h2.header-text{color: #fff;font-family: "Lobster";font-size: 60px;line-height: 62px;text-align: center;}
 .carousel-inner h2.header-text span{color: #FE6D6D;}
 
