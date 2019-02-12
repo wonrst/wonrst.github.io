@@ -128,7 +128,7 @@ body.sub-page header {margin: 195px 0 80px;background: url(../images/bg.jpg) fix
 .carousel-control.right span:hover {opacity: .7;filter: alpha(opacity=70);}
 
 .carousel-indicators .active {background-color: #fffffff;}
-.carousel-indicators {bottom: 85px;}
+.carousel-indicators {bottom: 20px;}
 
 .carousel-inner > .item {margin-left:0;margin-top:0;margin-bottom:0;padding-left: 0;width: 100%;height: auto;}
 .carousel-inner > .item > img,
