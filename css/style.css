@@ -161,12 +161,22 @@ body.sub-page header {margin: 195px 0 80px;background: url(../images/bg.jpg) fix
 #page-content{}
 
 /* ---HomePage--- */
-.box-content {padding: 0px 0;}
+.box-content {padding: 0px 0px;}
 .box-content .heading{margin-bottom: 0px; text-align: center;}
 .box-content .heading span{color: rgba(0, 0, 0, 0.384);}
 .box-content.box-style-1{background: rgb(0, 0, 0);}
 .box-content.box-style-2{background-attachment:fixed; background-image: url(../images/bg-2.jpg); background-color: #222;color:#fff;}
 .box-content.box-style-3{background-attachment:fixed; background-image: url(../images/bg-2.jpg); background-color: #222;color:#fff;}
+
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------Box 0---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.box-content.box-0 {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.box-content.box-0 .box-item{} 
+.box-content.box-0 .container{max-width: 1000px; text-align: right;}
 
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Box 1---------------------------------- */
@@ -186,18 +196,6 @@ body.sub-page header {margin: 195px 0 80px;background: url(../images/bg.jpg) fix
 	background-color: rgba(45, 45, 45);
 	padding-top: 40px;}
 
-/* ---------------------------------------------------------------------------- */
-/* -------------------------------------Box 3---------------------------------- */
-/* ---------------------------------------------------------------------------- */
-.box-content.box-3 {}
-.box-content.box-3 .box-item{}
-.box-content.box-3 .box-item {background: #ffffff; color: #3F3F3F; margin-bottom: 30px; }
-.box-content.box-3 .box-item .wrapper{padding: 20px 30px; }
-.box-content.box-3 .box-item img{border: none;margin-top: 30px;border: 7px double #eee; }
-.box-content.box-3 .box-item div{padding: 0;}
-.box-content.box-3 .fix-right {float: right;text-align: right;}
-
-@media only screen and (max-width: 970px) {.box-content.box-3 .fix-right,.box-content.box-3 .box-item  {float: none; text-align:center;}}
 
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Box 4---------------------------------- */
